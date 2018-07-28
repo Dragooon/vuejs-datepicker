@@ -63,7 +63,7 @@ export default {
     typeable: Boolean,
     bootstrapStyling: Boolean,
     useUtc: Boolean,
-    formatTypedDate: Function,
+    formatTypedDate: Function
   },
   data () {
     const constructedDateUtils = makeDateUtils(this.useUtc)
